@@ -1,6 +1,7 @@
 package parse.model;
 
 import javax.xml.bind.annotation.*;
+import java.util.ArrayList;
 import java.util.List;
 
 @XmlRootElement(name="configuration")
@@ -14,13 +15,13 @@ public class Configuration {
     private String output_keys;
 
     @XmlElement(name="step")
-    private List<Step> stepList;
+    private ArrayList<Step> stepList;
 
     public Configuration() {
     }
 
 
-    public Configuration(String process_input, String process_output, String output_keys, List<Step> stepList) {
+    public Configuration(String process_input, String process_output, String output_keys, ArrayList<Step> stepList) {
         this.process_input = process_input;
         this.process_output = process_output;
         this.output_keys = output_keys;
@@ -51,11 +52,11 @@ public class Configuration {
         this.output_keys = output_keys;
     }
 
-    public List<Step> getStepList() {
+    public ArrayList<Step> getStepList() {
         return stepList;
     }
 
-    public void setStepList(List<Step> stepList) {
+    public void setStepList(ArrayList<Step> stepList) {
         this.stepList = stepList;
     }
 

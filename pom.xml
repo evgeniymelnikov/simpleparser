@@ -20,14 +20,13 @@
         </plugins>
     </build>
 
-    <!-- <dependencies>
-        // https://mvnrepository.com/artifact/com.thoughtworks.xstream/xstream
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
         <dependency>
-            <groupId>com.thoughtworks.xstream</groupId>
-            <artifactId>xstream</artifactId>
-            <version>1.4.10</version>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>24.1-jre</version>
         </dependency>
-
-    </dependencies> -->
+    </dependencies>
 
 </project>
