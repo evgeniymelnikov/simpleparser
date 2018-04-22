@@ -3,38 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4204ff1e-4e40-4a1f-bb88-2b1bc03a640f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/output/output.txt" afterPath="$PROJECT_DIR$/output/output.txt" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/process/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parse/model/Configuration.java" afterPath="$PROJECT_DIR$/src/main/java/parse/model/Configuration.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parse/model/Step.java" afterPath="$PROJECT_DIR$/src/main/java/parse/model/Step.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parse/split/SplitStepInOut.java" afterPath="$PROJECT_DIR$/src/main/java/parse/split/SplitStepInOut.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/process/core/AProcessStep.java" afterPath="$PROJECT_DIR$/src/main/java/process/core/AProcessStep.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/process/core/ProcessData.java" afterPath="$PROJECT_DIR$/src/main/java/process/core/ProcessData.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/process/core/ProcessStep.java" afterPath="$PROJECT_DIR$/src/main/java/process/core/ProcessStep.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/process/definitions/ArithmeticOperation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/process/definitions/ArithmeticWithBothX.java" afterPath="$PROJECT_DIR$/src/main/java/process/definitions/ArithmeticWithBothX.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/process/definitions/ArithmeticWithX1Only.java" afterPath="$PROJECT_DIR$/src/main/java/process/definitions/ArithmeticWithX1Only.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/process/definitions/Difference.java" afterPath="$PROJECT_DIR$/src/main/java/process/definitions/Difference.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/process/definitions/Division.java" afterPath="$PROJECT_DIR$/src/main/java/process/definitions/Division.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/process/definitions/Multiplication.java" afterPath="$PROJECT_DIR$/src/main/java/process/definitions/Multiplication.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/process/definitions/Negative.java" afterPath="$PROJECT_DIR$/src/main/java/process/definitions/Negative.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/process/definitions/Square.java" afterPath="$PROJECT_DIR$/src/main/java/process/definitions/Square.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/process/definitions/SquareRoot.java" afterPath="$PROJECT_DIR$/src/main/java/process/definitions/SquareRoot.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/process/definitions/Sum.java" afterPath="$PROJECT_DIR$/src/main/java/process/definitions/Sum.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/process/core/AProcessStep.class" afterPath="$PROJECT_DIR$/target/classes/process/core/AProcessStep.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/process/core/ProcessData.class" afterPath="$PROJECT_DIR$/target/classes/process/core/ProcessData.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/process/core/ProcessStep.class" afterPath="$PROJECT_DIR$/target/classes/process/core/ProcessStep.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/process/definitions/ArithmeticOperation.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/process/definitions/ArithmeticWithBothX.class" afterPath="$PROJECT_DIR$/target/classes/process/definitions/ArithmeticWithBothX.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/process/definitions/ArithmeticWithX1Only.class" afterPath="$PROJECT_DIR$/target/classes/process/definitions/ArithmeticWithX1Only.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/process/definitions/Difference.class" afterPath="$PROJECT_DIR$/target/classes/process/definitions/Difference.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/process/definitions/Division.class" afterPath="$PROJECT_DIR$/target/classes/process/definitions/Division.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/process/definitions/Multiplication.class" afterPath="$PROJECT_DIR$/target/classes/process/definitions/Multiplication.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/process/definitions/Negative.class" afterPath="$PROJECT_DIR$/target/classes/process/definitions/Negative.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/process/definitions/Square.class" afterPath="$PROJECT_DIR$/target/classes/process/definitions/Square.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/process/definitions/SquareRoot.class" afterPath="$PROJECT_DIR$/target/classes/process/definitions/SquareRoot.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/process/definitions/Sum.class" afterPath="$PROJECT_DIR$/target/classes/process/definitions/Sum.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/process/Main.java" afterPath="$PROJECT_DIR$/src/main/java/process/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +18,18 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/process/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+            <state relative-caret-position="209">
+              <caret line="89" column="50" lean-forward="true" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -556,7 +535,7 @@
       <workItem from="1524374886064" duration="13964000" />
       <workItem from="1524393900465" duration="2040000" />
       <workItem from="1524395500743" duration="306000" />
-      <workItem from="1524415812982" duration="11479000" />
+      <workItem from="1524415812982" duration="12409000" />
     </task>
     <task id="LOCAL-00001" summary="At the moment, written: &#10;- parser, &#10;- splitter, &#10;- output properties from the file, &#10;- write the results to a file.&#10;&#10;Comments are not deleted.">
       <created>1524325851303</created>
@@ -569,7 +548,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69612000" />
+    <option name="totallyTimeSpent" value="70542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -606,6 +585,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -834,13 +839,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/process/split.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/process/split/SplitStepOutput.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/24.1-jre/guava-24.1-jre.jar!/com/google/common/base/Preconditions.class" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/process/definitions/ArithmeticOperation.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/process/core/IProcessStep.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1066,10 +1064,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/process/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        <state relative-caret-position="209">
+          <caret line="89" column="50" lean-forward="true" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
           <folding />
         </state>
       </provider>

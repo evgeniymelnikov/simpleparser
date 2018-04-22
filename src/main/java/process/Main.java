@@ -28,6 +28,7 @@ public class Main {
 
         /*
          * data from input.properties (namely a, const4, etc). Will be used as process data container.
+         * Here also name of input file ([name].properties) and path to a needed directory.
          */
         ProcessData processData = new ProcessData();
         String nameOfInputFile = configuration.getProcess_input();
