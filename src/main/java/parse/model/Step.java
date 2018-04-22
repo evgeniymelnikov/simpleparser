@@ -2,8 +2,6 @@ package parse.model;
 
 import javax.xml.bind.annotation.XmlElement;
 
-
-
 public class Step {
 
     private int number;

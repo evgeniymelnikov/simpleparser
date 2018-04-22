@@ -21,12 +21,24 @@ public class SplitStepInOut {
         // guava Map Splitter does not fit, because key and value are obtained by confused places:
         // return Splitter.on(",").trimResults().omitEmptyStrings().withKeyValueSeparator(":").split(step.getInput());
 
+
+
         //Split elements that are around the comma, a semicolon, then add them to the list, then add to map
         Iterable<String> stringIterable = Splitter.on(CharMatcher.anyOf(":,")).trimResults().omitEmptyStrings().split(step.getInput());
         List<String> list = Lists.newArrayList(stringIterable);
         Map<String,String> map = new HashMap<String,String>();
         for(int i = 0; i < list.size(); i+=2) {
             map.put(list.get(i+1),list.get(i));
+        }
+        return map;
+    }
+
+    public HashMap<String, String> outToMap(Step step){
+        Iterable<String> stringIterable = Splitter.on(CharMatcher.anyOf(":")).trimResults().omitEmptyStrings().split(step.getOutput());
+        List<String> list = Lists.newArrayList(stringIterable);
+        HashMap<String,String> map = new HashMap<String,String>();
+        for(int i = 0; i < list.size(); i+=2) {
+            map.put(list.get(i),list.get(i+1));
         }
         return map;
     }

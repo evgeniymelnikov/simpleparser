@@ -1,7 +1,11 @@
 import parse.ParserInitialization;
 import parse.model.Configuration;
+import parse.model.Step;
 import parse.split.SplitStepInOut;
+import process.core.InputData;
+import process.core.OutputData;
 import process.core.ProcessData;
+import process.core.ProcessStep;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -24,22 +28,49 @@ public class Main {
         Properties properties = new Properties();
         properties.load(fis);
         fis.close();
-        for (String name: properties.stringPropertyNames()) {
+        for (String name : properties.stringPropertyNames()) {
             processData.processDataContainer.put(name, properties.getProperty(name));}
-        //System.out.println(processData.processDataContainer);
+        System.out.println(processData.processDataContainer);
 
         SplitStepInOut splitStepInOut = new SplitStepInOut();
-        System.out.print(splitStepInOut.xToMap(configuration.getStepList().get(0)));
+
+
+
+        OutputData outputData = new OutputData();
+        for(Step i : configuration.getStepList()){
+            outputData.getOutputDataContainer().add(splitStepInOut.outToMap(i));
+        }
+        System.out.println(outputData.getOutputDataContainer());
+
+        InputData inputData = new InputData();
+
+        ProcessStep processStep = new ProcessStep(configuration.getStepList(),inputData, processData, inputData.getInputDataContainer(), outputData.getOutputDataContainer(), processData.processDataContainer);
+        //configuration.getStepList().size()
+        System.out.println("\n");
+        for(int i = 0; i < configuration.getStepList().size(); i++) {
+            processStep.setStepNumber(i);
+            inputData.getInputDataContainer().putAll(splitStepInOut.xToMap(configuration.getStepList().get(i)));
+            processStep.perform();
+
+        }
+
+        System.out.println(processData.processDataContainer);
+        System.out.println(processData.processDataContainer.get("constant4"));
+        System.out.println(inputData.getInputDataContainer());
+        //System.out.println(processData.processDataContainer);
 
         //In the final, we will write down the results using this approach
-        String stringForWriteInTxt = "jfjfjfj";
-        String stringForWriteInTxt2 = "121113";
+        String result1 = processData.processDataContainer.get("result1");
+        String result2 = processData.processDataContainer.get("result2");
         File file = new File("output/output.txt");
+
+        //String tes = "-15";
+        //System.out.println(Integer.parseInt(tes));
 
         PrintWriter pw = new PrintWriter(file);
         pw.print("");
-        pw.println(stringForWriteInTxt);
-        pw.println(stringForWriteInTxt2);
+        pw.println(result1);
+        pw.println(result2);
         pw.close();
     }
 }
