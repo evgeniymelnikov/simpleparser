@@ -4,6 +4,10 @@ import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Entity for xml parsing
+ */
+
 @XmlRootElement(name="configuration")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Configuration {

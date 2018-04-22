@@ -1,13 +1,28 @@
 package parse.model;
 
 import javax.xml.bind.annotation.XmlElement;
+import java.io.Serializable;
+import java.util.Comparator;
 
-public class Step {
+/**
+ * Entity for xml parsing
+ */
+public class Step implements Serializable {
 
     private int number;
     private String operationClassName;
     private String input;
     private String output;
+
+    /*
+     * Comparator to sorting ArrayList<Step> by step number
+     */
+    public static final Comparator<Step> STEP_BY_ID = new Comparator<Step>() {
+        @Override
+        public int compare(Step o1, Step o2) {
+            return o1.getNumber() - o2.getNumber();
+        }
+    };
 
     public Step() {
     }

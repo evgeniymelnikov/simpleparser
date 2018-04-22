@@ -1,5 +1,5 @@
 package process.definitions;
 
-public interface ArithmeticWithX1Only extends ArithmeticOperation {
-    int doOperation(int x1);
+public interface ArithmeticWithX1Only {
+    double doOperation(double x1);
 }
