@@ -1,7 +1,8 @@
 package process.definitions;
 
-public class Negative implements ArithmeticWithX1Only{
-    public double doOperation(double x1){
-        return (-x1);
-    }
+public class Negative extends ADefinitions implements x1 {
+	public double doOperation() {
+
+		return (-map.get("x1"));
+	}
 }

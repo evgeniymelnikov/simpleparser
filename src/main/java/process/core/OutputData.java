@@ -1,19 +1,28 @@
 package process.core;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
-public class OutputData {
-
-    private List<HashMap<String, String>> outputDataContainer = new ArrayList<>();
-
-
-    public List<HashMap<String, String>> getOutputDataContainer() {
-        return outputDataContainer;
-    }
-
-    public void setOutputDataContainer(List<HashMap<String, String>> outputDataContainer) {
-        this.outputDataContainer = outputDataContainer;
-    }
+public class OutputData implements IProcessData {
+	
+	
+	public static final List<OutputData> outputDataContainer = new ArrayList<>();
+	private Map<String, String> outputDataContainerOnSpecificStep;
+	
+	@Override
+	public boolean has(String key) {
+		return outputDataContainerOnSpecificStep.containsKey(key);
+	}
+	
+	@Override
+	public String getValue(String key) {
+		return outputDataContainerOnSpecificStep.get(key);
+	}
+	
+	public OutputData(Map<String, String> outputDataContainerOnSpecificStep) {
+		this.outputDataContainerOnSpecificStep = outputDataContainerOnSpecificStep;
+	}
+	
+	
 }

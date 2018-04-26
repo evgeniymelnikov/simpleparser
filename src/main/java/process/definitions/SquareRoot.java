@@ -1,6 +1,8 @@
 package process.definitions;
 
-public class SquareRoot implements ArithmeticWithX1Only{
-    public double doOperation(double x1){ return (int) (Math.sqrt(x1));
-    }
+public class SquareRoot extends ADefinitions implements x1 {
+	public double doOperation() {
+		
+		return (Math.sqrt(map.get("x1")));
+	}
 }

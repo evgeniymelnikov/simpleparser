@@ -1,7 +1,8 @@
 package process.definitions;
 
-public class Square implements ArithmeticWithX1Only{
-    public double doOperation(double x1){
-        return (x1*x1);
-    }
+public class Square extends ADefinitions implements x1 {
+	public double doOperation() {
+
+		return (map.get("x1") * map.get("x1"));
+	}
 }
