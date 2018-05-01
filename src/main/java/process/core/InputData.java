@@ -22,4 +22,8 @@ public class InputData implements IProcessData {
 	public InputData(Map<String, String> inputDataContainerOnSpecificStep) {
 		this.inputDataContainerOnSpecificStep = inputDataContainerOnSpecificStep;
 	}
+
+	public Map<String, String> getInputDataContainerOnSpecificStep() {
+		return inputDataContainerOnSpecificStep;
+	}
 }
